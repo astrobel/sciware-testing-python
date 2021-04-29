@@ -21,8 +21,8 @@ def sum_numbers(number_list):
     6
 
     Add another doctest below
-    >>> 1
-    1
+    >>> sum_numbers([-5,6,-1])
+    0
     """
 
     sum_val = 0
