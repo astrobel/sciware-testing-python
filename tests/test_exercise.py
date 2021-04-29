@@ -15,10 +15,9 @@ def test_sum_numbers_empty():
     # what's the sum of an empty list?
     pass
 
-#@pytest.mark.xfail(strict=True, raises=TypeError)
+@pytest.mark.xfail(strict=True, raises=TypeError)
 def test_sum_strings():
-    #assert sciware_testing_python.sum_numbers(["1","2","3"]) == "123"
-    pass
+    assert sum_numbers(["1","2","3"]) == "123"
 
 # Write a test for the add_vectors function
 

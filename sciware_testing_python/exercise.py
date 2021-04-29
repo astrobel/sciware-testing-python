@@ -64,4 +64,6 @@ def count_ones(input_list):
     return count
 
 # Make a new function which counts the number of twos in a list
-#def count_twos(input_list):
+def count_twos(input_list):
+    count = [n for n in input_list if n == 2]
+    return len(count)
