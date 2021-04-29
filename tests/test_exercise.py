@@ -3,12 +3,13 @@ from sciware_testing_python import sum_numbers, add_vectors
 
 def test_sum_numbers_123():
     # basic test to see if we get the expected answer for a simple case.
-    sum = sum_numbers([1,2,3])
-    assert sum == 6
+    sum_test = sum_numbers([1,2,3])
+    assert sum_test == 6
 
 def test_sum_numbers_yours():
     # write another test of the sum_numbers function
-    pass
+    sum_test = sum_numbers([5,6,7,8])
+    assert sum_test == 26 # boot scootin'!
 
 def test_sum_numbers_empty():
     # what's the sum of an empty list?
