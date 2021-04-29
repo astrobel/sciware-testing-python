@@ -22,4 +22,9 @@ def test_sum_strings():
 
 # Write a test for the add_vectors function
 
+def test_add_vectors_basic():
+    vec1 = [1,1]
+    vec2 = [2,2]
+    assert add_vectors(vec1, vec2) == [3,3]
+
 # Write a test for sum_numbers on a list of booleans

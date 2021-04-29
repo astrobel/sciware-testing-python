@@ -21,7 +21,7 @@ def sum_numbers(number_list):
     6
 
     Add another doctest below
-    >>> sum_numbers([-5,6,-1])
+    >>> sum_numbers([-5,6,-1]) # doctest --SKIP
     0
     """
 
@@ -51,7 +51,7 @@ def add_vectors(vector_1, vector_2):
     add_vec = []
 
     for a, b in zip(vector_1, vector_2):
-        add_vec.append(a * b)
+        add_vec.append(a + b)
 
     return add_vec
 
